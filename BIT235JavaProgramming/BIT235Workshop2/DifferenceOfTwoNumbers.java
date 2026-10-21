@@ -13,11 +13,18 @@ public class DifferenceOfTwoNumbers {
         System.out.print("Enter the second integer: ");
         int num2 = scanner.nextInt();
 
+        System.out.print("Enter the third integer: ");
+        int num3 = scanner.nextInt();
+
+        System.out.print("Enter the fourth integer: ");
+        int num4 = scanner.nextInt();
+
         // Calculate the difference
-        int difference = num1 - num2;
+        int difference = num1 - num2 - num3 - num4;
 
         // Display the result
-        System.out.println("The difference of " + num1 + " and " + num2 + " is: " + difference);
+        System.out.println("The difference of " + num1 + ", " + num2 + ", " + num3
+                + ", and " + num4 + " is: " + difference);
 
         // Close the scanner
         scanner.close();
